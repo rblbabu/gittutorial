@@ -1,0 +1,19 @@
+1) Scenario 1: 
+	Step 1: Add a file to staging area: git add Document.txt
+	Step 2: git commit -m "Initial Version added"
+2) Scenario 2:
+	Step 1: Add a file to stating area: git add Document.txt
+	Step 2: Remove file from staging area: git reset HEAD Document.txt
+3) Scenario 3:
+	Step 1: Add a file to staging area: git add Document.txt
+	Step 2: git commit -m "Initial Version added"
+	Step 3: git rm Document.txt
+	Step 4: git commit -m "Removed the Document.txt"
+4) Comparing file in Working directory and staging area
+	git diff
+5) Comparing file in Repository and staging area
+	git diff --staged
+
+	
+	
+	

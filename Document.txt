@@ -38,6 +38,11 @@ Merge Production and Feature1
 Step 1: git checkout master
 Step 2: git merge Feature1 -m "Merged Feature1 with Master"
 
+To delete a Branch
+
+git branch --merged
+git branch --no-merged
+
 
 
 

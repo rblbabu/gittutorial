@@ -13,6 +13,37 @@
 	git diff
 5) Comparing file in Repository and staging area
 	git diff --staged
+	
+Branching:
+The First check in called the Master.
+We create a new Branch: git checkout -b feature1
+Add a file to branch feature 1: git add feature1.txt
+Commit it
+Update the file Feature1.txt.
+Add the file to branch feature1: git add feature1.txt
+Commit it.
+
+
+We create a new Brach: git checkout -b hotfix1
+Update the Production.txt:git add Production.txt
+Commit it
+Update the Production.txt: git add Production.txt
+Commit it
+Merge production and hotfix1
+Step 1: git checkout master
+Step 2: git merge hotfix1 -m "Mergeed hotfix1 with Master"
+
+
+Merge Production and Feature1
+Step 1: git checkout master
+Step 2: git merge Feature1 -m "Merged Feature1 with Master"
+
+
+
+
+
+
+
 
 	
 	

@@ -15,6 +15,7 @@
 	git diff --staged
 	
 Branching:
+==================
 The First check in called the Master.
 We create a new Branch: git checkout -b feature1
 Add a file to branch feature 1: git add feature1.txt
@@ -42,6 +43,29 @@ To delete a Branch
 
 git branch --merged
 git branch --no-merged
+
+
+To Revert to a earlier
+====================== 
+git revert <commit id>
+Hint: After reverting if the revert version has already been pushed. Then push the reverted version to the remote repository.
+
+
+To publish to remote
+=====================
+git publish origin master
+
+
+To get log of changes
+=====================
+git log --pretty=format:"%h %s" --graph
+
+To get difference between local and remote
+=============================
+git diff master origin/master
+
+
+
 
 
 

@@ -53,7 +53,7 @@ Hint: After reverting if the revert version has already been pushed. Then push t
 
 To publish to remote
 =====================
-git publish origin master
+git push  origin master
 
 
 To get log of changes
